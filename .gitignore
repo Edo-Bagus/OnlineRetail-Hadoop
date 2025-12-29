@@ -1,0 +1,35 @@
+# Hadoop temporary files
+*.txt
+*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Docker volumes
+namenode/
+datanode/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+*.tmp
+*.temp
+
+# Output files (jika ingin ignore hasil analisis)
+# results/*.csv
+# Uncomment jika tidak ingin commit hasil analisis
